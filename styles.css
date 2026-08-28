@@ -874,11 +874,33 @@ textarea:focus {
 
 .footer-main,
 .newsletter-block,
-.newsletter-input-row {
+.newsletter-input-row,
+.social-links {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+}
+
+.social-links {
+  gap: 10px;
+}
+
+.social-links a {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--muted);
+  transition: border-color 220ms ease, color 220ms ease, transform 220ms ease;
+}
+
+.social-links a:hover {
+  border-color: var(--green);
+  color: var(--green);
+  transform: translateY(-2px);
 }
 
 .newsletter-block {
