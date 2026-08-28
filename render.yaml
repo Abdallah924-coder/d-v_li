@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: devli-portfolio
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: BREVO_API_KEY
+        sync: false
+      - key: BREVO_SENDER_EMAIL
+        sync: false
+      - key: BREVO_SENDER_NAME
+        sync: false
+      - key: CONTACT_TO_EMAIL
+        sync: false
+      - key: CONTACT_TO_NAME
+        sync: false
+      - key: NEWSLETTER_LIST_ID
+        sync: false
+      - key: CONTACT_SUBJECT_PREFIX
+        value: "[Portfolio]"

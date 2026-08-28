@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Logs and local runtime files
+*.log
+.DS_Store

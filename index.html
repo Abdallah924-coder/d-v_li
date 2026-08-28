@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio professionnel D€V L\, developpeur web et IA.">
+    <meta name="contact-api-url" content="/api/contact">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests">
+    <title>D€V L\ - Developpeur Web & IA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600;1,700&family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <svg class="icon-sprite" aria-hidden="true" focusable="false">
+      <symbol id="icon-arrow-up-right" viewBox="0 0 24 24">
+        <path d="M7 17 17 7"></path><path d="M8 7h9v9"></path>
+      </symbol>
+      <symbol id="icon-briefcase" viewBox="0 0 24 24">
+        <path d="M10 6V5a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v1"></path><path d="M4 7h16v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"></path><path d="M4 12h16"></path>
+      </symbol>
+      <symbol id="icon-brain" viewBox="0 0 24 24">
+        <path d="M9 6a3 3 0 0 0-3 3v1a3 3 0 0 0 0 6v1a3 3 0 0 0 5 2"></path><path d="M15 6a3 3 0 0 1 3 3v1a3 3 0 0 1 0 6v1a3 3 0 0 1-5 2"></path><path d="M12 5v14"></path><path d="M8 10h2"></path><path d="M14 10h2"></path>
+      </symbol>
+      <symbol id="icon-chart" viewBox="0 0 24 24">
+        <path d="M4 19h16"></path><path d="M7 16V9"></path><path d="M12 16V5"></path><path d="M17 16v-4"></path>
+      </symbol>
+      <symbol id="icon-code" viewBox="0 0 24 24">
+        <path d="m9 18-6-6 6-6"></path><path d="m15 6 6 6-6 6"></path>
+      </symbol>
+      <symbol id="icon-coins" viewBox="0 0 24 24">
+        <ellipse cx="12" cy="6" rx="7" ry="3"></ellipse><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6"></path><path d="M5 12v4c0 1.7 3.1 3 7 3s7-1.3 7-3v-4"></path>
+      </symbol>
+      <symbol id="icon-filter" viewBox="0 0 24 24">
+        <path d="M4 6h16"></path><path d="M7 12h10"></path><path d="M10 18h4"></path>
+      </symbol>
+      <symbol id="icon-globe" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9"></circle><path d="M3 12h18"></path><path d="M12 3c2.4 2.5 3.6 5.5 3.6 9S14.4 18.5 12 21"></path><path d="M12 3c-2.4 2.5-3.6 5.5-3.6 9S9.6 18.5 12 21"></path>
+      </symbol>
+      <symbol id="icon-message" viewBox="0 0 24 24">
+        <path d="M5 6h14v9H8l-3 3Z"></path><path d="M8 9h8"></path><path d="M8 12h5"></path>
+      </symbol>
+      <symbol id="icon-send" viewBox="0 0 24 24">
+        <path d="m4 12 16-8-6 16-3-7Z"></path><path d="m11 13 9-9"></path>
+      </symbol>
+      <symbol id="icon-server" viewBox="0 0 24 24">
+        <rect x="4" y="4" width="16" height="6" rx="2"></rect><rect x="4" y="14" width="16" height="6" rx="2"></rect><path d="M8 7h.01"></path><path d="M8 17h.01"></path>
+      </symbol>
+      <symbol id="icon-shopping" viewBox="0 0 24 24">
+        <path d="M6 8h12l-1 12H7Z"></path><path d="M9 8a3 3 0 0 1 6 0"></path>
+      </symbol>
+      <symbol id="icon-user" viewBox="0 0 24 24">
+        <circle cx="12" cy="8" r="4"></circle><path d="M4 21a8 8 0 0 1 16 0"></path>
+      </symbol>
+    </svg>
+    <header class="site-header">
+      <a class="brand" href="#accueil" aria-label="Retour a l'accueil">
+        <span class="brand-mark">D\</span>
+        <span>D€V L\</span>
+      </a>
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="#expertise">Expertise</a>
+        <a href="#projets">Projets</a>
+        <a href="#stack">Stack</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="#contact"><svg class="icon" aria-hidden="true"><use href="#icon-message"></use></svg>Discuter</a>
+      <button class="menu-button" type="button" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main id="accueil">
+      <section class="hero page-section page-section-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">D€V L\ - Developpeur Web & IA</p>
+          <h1>D€V L\ construit des sites modernes et des outils IA puissants.</h1>
+          <p class="hero-lead">
+            Je concois des experiences web modernes et des solutions IA capables
+            d'automatiser, analyser et augmenter les workflows metiers.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projets"><svg class="icon" aria-hidden="true"><use href="#icon-briefcase"></use></svg>Voir les projets</a>
+            <a class="button secondary" href="#contact"><svg class="icon" aria-hidden="true"><use href="#icon-message"></use></svg>Me contacter</a>
+          </div>
+          <div class="metrics" aria-label="Indicateurs professionnels">
+            <div>
+              <svg class="metric-icon" aria-hidden="true"><use href="#icon-globe"></use></svg>
+              <strong>4</strong>
+              <span>Applications en production</span>
+            </div>
+            <div>
+              <svg class="metric-icon" aria-hidden="true"><use href="#icon-brain"></use></svg>
+              <strong>1</strong>
+              <span>Agent IA public</span>
+            </div>
+            <div>
+              <svg class="metric-icon" aria-hidden="true"><use href="#icon-chart"></use></svg>
+              <strong>2</strong>
+              <span>Marketplaces lancees</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Portrait professionnel">
+          <img src="image1.png" alt="Portrait du developpeur web et IA">
+          <div class="visual-panel panel-top">
+            <span>Stack</span>
+            <strong>React / Node / Python / IA</strong>
+          </div>
+          <div class="visual-panel panel-bottom">
+            <span>Disponible</span>
+            <strong>Projets web, SaaS et agents IA</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section page-section-strip" aria-label="Domaines d'intervention">
+        <div class="section logos">
+          <span>Frontend</span>
+          <span>Backend</span>
+          <span>Agents IA</span>
+          <span>Dashboards</span>
+          <span>Automatisation</span>
+        </div>
+      </section>
+
+      <section class="page-section page-section-light" id="expertise">
+        <div class="section split">
+          <div class="section-heading">
+            <p class="eyebrow">Section 01 - Expertise</p>
+            <h2>Un profil hybride pour construire vite et proprement.</h2>
+          </div>
+          <div class="expertise-grid">
+            <article class="skill-card">
+              <span class="icon"><svg aria-hidden="true"><use href="#icon-code"></use></svg></span>
+              <h3>Applications web</h3>
+              <p>Interfaces responsives, dashboards, portals clients, API et integrations metier.</p>
+            </article>
+            <article class="skill-card">
+              <span class="icon"><svg aria-hidden="true"><use href="#icon-brain"></use></svg></span>
+              <h3>Intelligence artificielle</h3>
+              <p>Chatbots, assistants internes, extraction de donnees, scoring et workflows automatises.</p>
+            </article>
+            <article class="skill-card">
+              <span class="icon"><svg aria-hidden="true"><use href="#icon-chart"></use></svg></span>
+              <h3>Performance produit</h3>
+              <p>Architecture claire, temps de chargement reduits, UX efficace et code maintenable.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section page-section-dark" id="projets">
+        <div class="section projects">
+          <div class="section-heading compact">
+            <p class="eyebrow">Section 02 - Projets</p>
+            <h2>Applications en production, visibles et orientees usage.</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project-card project-afrix">
+              <div class="project-preview" aria-hidden="true">
+                <div class="preview-top"><span></span><span></span><span></span></div>
+                <div class="preview-body finance-preview">
+                  <svg><use href="#icon-coins"></use></svg>
+                  <strong>AFRIX</strong>
+                  <div class="preview-lines"><span></span><span></span><span></span></div>
+                </div>
+              </div>
+              <div class="project-meta">
+                <span><svg class="icon" aria-hidden="true"><use href="#icon-coins"></use></svg>Investissement</span>
+                <span>2026</span>
+              </div>
+              <h3>Afrix Capital</h3>
+              <p>Plateforme de finance digitale autour de la blockchain, des actifs numeriques, de la DeFi, de la tokenisation et des programmes trading, staking, swap et partenaires.</p>
+              <ul class="project-facts">
+                <li>Programmes trading, staking et swap GRSCOIN</li>
+                <li>Parcours connexion, inscription et espace compte</li>
+              </ul>
+              <div class="project-actions">
+                <a class="button project-button" href="https://afrix-capital.com" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg>Voir le projet</a>
+              </div>
+              <div class="tags">
+                <span>Fintech</span>
+                <span>Web3</span>
+                <span>Business</span>
+              </div>
+            </article>
+            <article class="project-card project-yaka">
+              <div class="project-preview" aria-hidden="true">
+                <div class="preview-top"><span></span><span></span><span></span></div>
+                <div class="preview-body market-preview">
+                  <svg><use href="#icon-shopping"></use></svg>
+                  <strong>Yaka Marche</strong>
+                  <div class="preview-grid"><span></span><span></span><span></span><span></span></div>
+                </div>
+              </div>
+              <div class="project-meta">
+                <span><svg class="icon" aria-hidden="true"><use href="#icon-shopping"></use></svg>Marketplace</span>
+                <span>Congo</span>
+              </div>
+              <h3>Yaka Marche</h3>
+              <p>Marketplace locale pour acheter, vendre et proposer des services au Congo, avec publication gratuite, annonces, tableau de bord vendeur et contact direct via WhatsApp.</p>
+              <ul class="project-facts">
+                <li>Publication gratuite et mise en avant payante</li>
+                <li>Recherche, annonces, favoris et espace vendeur</li>
+              </ul>
+              <div class="project-actions">
+                <a class="button project-button" href="https://yaka-marche.xyz" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg>Voir le projet</a>
+              </div>
+              <div class="tags">
+                <span>E-commerce</span>
+                <span>WhatsApp</span>
+              </div>
+            </article>
+            <article class="project-card project-campus">
+              <div class="project-preview" aria-hidden="true">
+                <div class="preview-top"><span></span><span></span><span></span></div>
+                <div class="preview-body jobs-preview">
+                  <svg><use href="#icon-briefcase"></use></svg>
+                  <strong>CampusJobs</strong>
+                  <div class="preview-list"><span></span><span></span><span></span></div>
+                </div>
+              </div>
+              <div class="project-meta">
+                <span><svg class="icon" aria-hidden="true"><use href="#icon-briefcase"></use></svg>Marketplace</span>
+                <span>Emploi</span>
+              </div>
+              <h3>CampusJobs Waaw</h3>
+              <p>Plateforme qui connecte etudiants, jeunes talents, particuliers et entreprises a Brazzaville et Pointe-Noire, avec missions, profils, paiements, messagerie et espaces admin.</p>
+              <ul class="project-facts">
+                <li>Dashboards et profils par type d'utilisateur</li>
+                <li>Missions, paiements, messagerie et administration</li>
+              </ul>
+              <div class="project-actions">
+                <a class="button project-button" href="https://campusjobs-waaw.onrender.com" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg>Voir le projet</a>
+              </div>
+              <div class="tags">
+                <span>Jobs</span>
+                <span>Dashboard</span>
+              </div>
+            </article>
+            <article class="project-card project-devai">
+              <div class="project-preview" aria-hidden="true">
+                <div class="preview-top"><span></span><span></span><span></span></div>
+                <div class="preview-body ai-preview">
+                  <svg><use href="#icon-brain"></use></svg>
+                  <strong>DevAI</strong>
+                  <div class="preview-chat"><span></span><span></span><span></span></div>
+                </div>
+              </div>
+              <div class="project-meta">
+                <span><svg class="icon" aria-hidden="true"><use href="#icon-brain"></use></svg>Agent IA</span>
+                <span>Claude API</span>
+              </div>
+              <h3>Dev AI</h3>
+              <p>Assistant IA WorldifyAI oriente programmation, mathematiques et recherche approfondie, avec memoire utilisateur, modes experts, plans de paiement et espace applicatif.</p>
+              <ul class="project-facts">
+                <li>Modes Standard, Code, Math et Research</li>
+                <li>Memoire, newsletter, contact et paiement manuel</li>
+              </ul>
+              <div class="project-actions">
+                <a class="button project-button" href="https://dev-ai-nwnh.onrender.com" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg>Voir le projet</a>
+              </div>
+              <div class="tags">
+                <span>IA</span>
+                <span>Claude</span>
+                <span>Research</span>
+              </div>
+            </article>
+          </div>
+          <div class="proof-strip" aria-label="Capacites demontrees">
+            <div class="proof-item"><svg class="icon" aria-hidden="true"><use href="#icon-user"></use></svg><strong>Authentification</strong><span>comptes, profils et espaces utilisateurs</span></div>
+            <div class="proof-item"><svg class="icon" aria-hidden="true"><use href="#icon-chart"></use></svg><strong>Dashboards</strong><span>suivi, administration et operations</span></div>
+            <div class="proof-item"><svg class="icon" aria-hidden="true"><use href="#icon-message"></use></svg><strong>Flux metier</strong><span>messagerie, contact, publication et validation</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section page-section-light" id="stack">
+        <div class="section stack-section">
+          <div class="section-heading compact">
+            <p class="eyebrow">Section 03 - Stack</p>
+            <h2>Une base technique faite pour livrer des produits complets.</h2>
+          </div>
+          <div class="stack-grid">
+            <article class="tech-card"><svg class="icon-large" aria-hidden="true"><use href="#icon-code"></use></svg><h3>Frontend</h3><p>Interfaces responsives, parcours propres, composants reutilisables et experience mobile.</p><span>HTML, CSS, React</span></article>
+            <article class="tech-card"><svg class="icon-large" aria-hidden="true"><use href="#icon-server"></use></svg><h3>Backend</h3><p>API, authentification, tableaux de bord, paiements, roles et logique metier.</p><span>Node, API REST, donnees</span></article>
+            <article class="tech-card"><svg class="icon-large" aria-hidden="true"><use href="#icon-brain"></use></svg><h3>IA</h3><p>Agents conversationnels, modes experts, memoire utilisateur et recherche approfondie.</p><span>Claude API, workflows IA</span></article>
+            <article class="tech-card"><svg class="icon-large" aria-hidden="true"><use href="#icon-globe"></use></svg><h3>Production</h3><p>Applications deployees, domaines publics, PWA et services accessibles en ligne.</p><span>Render, domaines, PWA</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section page-section-profile">
+        <div class="section profile-band">
+          <img src="image2.png" alt="Portrait complet de D€V L\">
+          <div>
+            <p class="eyebrow">Section 04 - Identite</p>
+            <h2>D€V L\ : une presence serieuse pour des clients qui veulent du concret.</h2>
+            <p>
+              Ce portfolio met en avant un positionnement clair: developpement web
+              moderne, integration IA et livraison orientee business. Chaque section
+              est pensee pour inspirer confiance des la premiere visite.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section page-section-light" id="process">
+        <div class="section process">
+          <div class="section-heading compact">
+            <p class="eyebrow">Section 05 - Methode</p>
+            <h2>De l'idee au produit utilisable.</h2>
+          </div>
+          <div class="timeline">
+            <div>
+              <span><svg class="icon" aria-hidden="true"><use href="#icon-filter"></use></svg>01</span>
+              <h3>Cadrage</h3>
+              <p>Objectifs, utilisateurs, donnees, contraintes et priorites.</p>
+            </div>
+            <div>
+              <span><svg class="icon" aria-hidden="true"><use href="#icon-code"></use></svg>02</span>
+              <h3>Prototype</h3>
+              <p>Interface, parcours, architecture et validation rapide.</p>
+            </div>
+            <div>
+              <span><svg class="icon" aria-hidden="true"><use href="#icon-globe"></use></svg>03</span>
+              <h3>Production</h3>
+              <p>Developpement, tests, optimisation, livraison et suivi.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section page-section-contact" id="contact">
+        <div class="section contact">
+          <div>
+            <p class="eyebrow">Section 06 - Contact</p>
+            <h2>Pret a lancer un site, une app ou un outil IA avec D€V L\ ?</h2>
+            <p>Expliquez le besoin, le delai et le resultat attendu. Je reviens avec une proposition claire.</p>
+          </div>
+          <form class="contact-form" action="/api/contact" method="post" novalidate>
+            <label>
+              Nom
+              <input type="text" name="name" placeholder="Votre nom" autocomplete="name" required minlength="2" maxlength="80">
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="vous@email.com" autocomplete="email" required maxlength="120">
+            </label>
+            <label>
+              Type de projet
+              <select name="project_type" required>
+                <option value="">Selectionner</option>
+                <option>Site ou portfolio</option>
+                <option>Application web</option>
+                <option>Marketplace</option>
+                <option>Agent IA</option>
+                <option>Dashboard metier</option>
+              </select>
+            </label>
+            <label>
+              Budget estime
+              <select name="budget" required>
+                <option value="">Selectionner</option>
+                <option>Moins de 500$</option>
+                <option>500$ - 1500$</option>
+                <option>1500$ - 5000$</option>
+                <option>Plus de 5000$</option>
+              </select>
+            </label>
+            <label>
+              Projet
+              <textarea name="message" rows="5" placeholder="Objectif, delai, utilisateurs, pages ou fonctionnalites attendues..." required minlength="20" maxlength="2000"></textarea>
+            </label>
+            <label class="website-field" aria-hidden="true">
+              Site web
+              <input type="text" name="website" tabindex="-1" autocomplete="off">
+            </label>
+            <button class="button primary" type="submit"><svg class="icon" aria-hidden="true"><use href="#icon-send"></use></svg>Envoyer la demande</button>
+            <p class="form-note" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-main">
+        <span>Produit WorldifyAI by Devoue</span>
+        <a href="#accueil">Retour en haut</a>
+      </div>
+      <div class="newsletter-block">
+        <div>
+          <p class="eyebrow">Notes de travail</p>
+          <h2>La newsletter, sans bruit.</h2>
+          <p>Quelques idées concrètes sur le web, l'IA et les produits numériques.</p>
+        </div>
+        <form class="newsletter-form" action="/api/newsletter" method="post" novalidate>
+          <label class="sr-only" for="newsletter-email">Votre adresse email</label>
+          <div class="newsletter-input-row">
+            <input id="newsletter-email" type="email" name="email" placeholder="vous@email.com" autocomplete="email" required maxlength="120">
+            <button class="button secondary" type="submit"><svg class="icon" aria-hidden="true"><use href="#icon-send"></use></svg>S'inscrire</button>
+          </div>
+          <p class="newsletter-note" aria-live="polite"></p>
+        </form>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
