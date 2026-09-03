@@ -568,6 +568,7 @@ h3 {
 }
 
 .finance-preview { color: var(--gold); }
+.language-preview { color: var(--gold); }
 .market-preview { color: var(--green); }
 .jobs-preview { color: var(--cyan); }
 .ai-preview { color: #f5f7f2; }
@@ -592,6 +593,19 @@ h3 {
 .preview-lines span:nth-child(1) { width: 78%; }
 .preview-lines span:nth-child(2) { width: 54%; }
 .preview-lines span:nth-child(3) { width: 66%; }
+
+.preview-language-tabs {
+  display: flex;
+  gap: 6px;
+}
+
+.preview-language-tabs span {
+  padding: 4px 7px;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 800;
+}
 
 .preview-grid {
   display: grid;
